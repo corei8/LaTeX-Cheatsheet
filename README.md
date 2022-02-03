@@ -14,6 +14,6 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 \usepackage{Carrickc,lettrine}
 \renewcommand\LettrineFontHook{\Carrickcfamily}
 ```
-[Options for Fancy Dropcaps](./images/initials.jpg)
+![Options for Fancy Dropcaps](./images/initials.jpg)
 
 ## Tricks
