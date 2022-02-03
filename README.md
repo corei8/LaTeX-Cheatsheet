@@ -8,6 +8,14 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 
 ## Snippets
 
+#### Set font for initials
+
+```LaTeX
+\usepackage{Carrickc,lettrine}
+\renewcommand\LettrineFontHook{\Carrickcfamily}
+```
+[Options for Fancy Dropcaps](https://i.stack.imgur.com/kaFIL.jpg)
+
 ## Tricks
 
 
