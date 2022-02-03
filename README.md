@@ -11,6 +11,10 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 
 #### Scale the Document's Fonts
 
+```LaTeX
+\usepackage{relscale}
+\relscale{0.95} % or whatever scaling is desired
+```
 
 #### Set font for initials
 
