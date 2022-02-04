@@ -24,4 +24,22 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 ```
 ![Options for Fancy Dropcaps](./images/initials.jpg)
 
+#### Linebreaks with Tikz Trees
+
+```LaTeX
+\begin{tikzpicture}
+		\tikzset{every tree node/.style={align=center}}
+		{
+		\Tree [.{\textit{de fide...}} 
+			[.{\textit{creden\ae\ }\\ (to be believed)} 
+				[.{``divine faith''} ]
+			]
+			[.{\textit{tenend\ae\ }\\ (to be held)} 
+				[.{``ecclesiastical faith''} ]
+			]
+		]
+		}
+	\end{tikzpicture}
+```
+
 ## Tricks
