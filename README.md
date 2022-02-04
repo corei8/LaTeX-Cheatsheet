@@ -29,20 +29,20 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 ```LaTeX
 \begin{tikzpicture}
     \tikzset{every tree node/.style={align=center}}
-        {
-        \Tree [.{\textit{de fide...}} 
-        [.{\textit{creden\ae\ }} 
-        [.{``divine faith''\\ Authority of God} ]
-        ]
-			[.{\textit{tenend\ae\ }} 
-				[.{``ecclesiastical faith''\\ Authority of the Church} 
-					[.{mediately divine} ]
-					[.{virtually revealed} ]
-				]
+    {
+	\Tree [.{\textit{de fide...}} 
+		[.{\textit{creden\ae\ }} 
+		[.{``divine faith''\\ Authority of God} ]
+	]
+		[.{\textit{tenend\ae\ }} 
+			[.{``ecclesiastical faith''\\ Authority of the Church} 
+				[.{mediately divine} ]
+				[.{virtually revealed} ]
 			]
 		]
-		}
+	]
+	}
 \end{tikzpicture}
 ```
-
+![Tikz Tree Line Breaks](./images/line_breaks_trees.png)
 ## Tricks
