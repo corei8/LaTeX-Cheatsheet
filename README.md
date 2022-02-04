@@ -6,6 +6,7 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 
 - [Set Initial Fonts](https://tex.stackexchange.com/a/250479/254874)
 - [Scale the Document](https://tex.stackexchange.com/a/70240/254874)
+- [Samples of Custom Chapters](http://zoonek.free.fr/LaTeX/LaTeX_samples_chapter/0.html)
 
 ## Snippets
 
