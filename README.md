@@ -2,13 +2,19 @@
 
 Collection of links, articles, tricks and snippets for making LaTeX documents.
 
+## Contents
+
+1. [Snippets](#snippets)
+2. [Tricks](#tricks)
+3. [GregorioTeX](#gregorio)
+
 ## Posts/Articles
 
 - [Set Initial Fonts](https://tex.stackexchange.com/a/250479/254874)
 - [Scale the Document](https://tex.stackexchange.com/a/70240/254874)
 - [Samples of Custom Chapters](http://zoonek.free.fr/LaTeX/LaTeX_samples_chapter/0.html)
 
-## Snippets
+## [Snippets](#snippets)
 
 #### Scale the Document's Fonts
 
@@ -47,7 +53,7 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 ```
 ![Tikz Tree Line Breaks](./images/line_breaks_trees.png)
 
-## Tricks
+## [Tricks](#tricks)
 
 #### Symmetrical dots using `\dotfill`.
 
@@ -57,4 +63,12 @@ Add before `\begin{document}`:
 \makeatletter
 \renewcommand \dotfill {\leavevmode \leaders \hb@xt@ .44em{\hss .\hss }\hfill \kern \z@}
 \makeatother
+```
+## [GregorioTeX](#gregorio)
+
+#### Initial settings for 10pt
+
+```LaTeX
+\grechangestyle{annotation}{\fontsize{8}{8}\selectfont}
+\grechangestyle{initial}{\fontsize{35}{35}\selectfont}
 ```
