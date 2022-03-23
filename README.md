@@ -46,4 +46,15 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 \end{tikzpicture}
 ```
 ![Tikz Tree Line Breaks](./images/line_breaks_trees.png)
+
 ## Tricks
+
+#### Symmetrical dots using `\dotfill`.
+
+Add before `\begin{document}`:
+
+```LaTeX
+\makeatletter
+\renewcommand \dotfill {\leavevmode \leaders \hb@xt@ .44em{\hss .\hss }\hfill \kern \z@}
+\makeatother
+```
