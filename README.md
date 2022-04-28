@@ -81,7 +81,7 @@ Add before `\begin{document}`:
 \grechangestyle{initial}{\fontsize{35}{35}\selectfont}
 ```
 
-#### Settings for large change, in the style of a _Pontificale_
+#### Settings for large chant, in the style of a _Pontificale_
 
 ```latex
 % !TEX program = lualatex
