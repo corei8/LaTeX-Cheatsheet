@@ -80,3 +80,35 @@ Add before `\begin{document}`:
 \grechangestyle{annotation}{\fontsize{8}{8}\selectfont}
 \grechangestyle{initial}{\fontsize{35}{35}\selectfont}
 ```
+
+#### Settings for large change, in the style of a _Pontificale_
+
+```latex
+% !TEX program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[20pt, extrafontsizes]{memoir}
+\usepackage[letterpaper,vmargin={1in,1in},hmargin={1in,1in}]{geometry}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{fontspec}
+\usepackage{gregoriotex}
+\gresetlinecolor{gregoriocolor}
+\grechangestaffsize{27}
+\gresetlinesbehindpunctumcavum{visible}
+\grechangestafflinethickness{50}
+\grechangedim{spacelinestext}{2.7ex}{fixed}
+\grechangedim{spaceabovelines}{1.9ex}{scalable}
+\gresetgregoriofont[op]{greciliae}
+\usepackage[latin]{babel}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Libertinus Serif}
+\usepackage{Carrickc,lettrine}
+\renewcommand\LettrineFontHook{\Carrickcfamily}
+\pagestyle{empty}
+\begin{document}
+\setlength{\parindent}{0pt}
+\gresetbracerendering{font} 
+%% YOUR CHANT HERE
+\end{document}
+```
