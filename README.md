@@ -53,6 +53,14 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 ```
 ![Tikz Tree Line Breaks](./images/line_breaks_trees.png)
 
+#### Add a DRAFT watermark
+
+```latex
+\usepackage{draftwatermark} % automatically puts it on every page
+\SetWatermarkLightness{.92} % the higher the number, the lighter the mark
+\SetWatermarkScale{1.3}     % increases the default font size
+```
+
 ## [Tricks](#tricks)
 
 #### Symmetrical dots using `\dotfill`.
