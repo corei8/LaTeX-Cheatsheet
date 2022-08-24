@@ -16,6 +16,12 @@ Collection of links, articles, tricks and snippets for making LaTeX documents.
 
 ## [Snippets](#snippets)
 
+### Shebangs
+```LaTeX
+% !TEX program = lualatex
+% !TEX encoding = UTF-8
+```
+
 #### Scale the Document's Fonts
 
 ```LaTeX
